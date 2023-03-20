@@ -36,7 +36,7 @@ def on_clicked(icon, item):
 # Create the tray icon
 image = Image.open("icon.png")
 menu = pystray.Menu(pystray.MenuItem("Click me", on_clicked))
-icon = pystray.Icon("GLOWIE EJECT", image, "Example", menu)
+icon = pystray.Icon("GLOWIE EJECT", image, "GLOWIE EJECT", menu)
 
 # Run the tray application
 icon.run()
