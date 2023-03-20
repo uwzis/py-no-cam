@@ -11,3 +11,4 @@ Program **will not work** without elevated permissions because it works with dev
 ## Dependencies
 - Python >= 3.6
 - usb_modeswitch
+- pystray
